@@ -8,6 +8,5 @@ parameters:
     default_value: 1.0
   parameter2:
     default_value: 1.0
-step: 9
-docker:
-  name: test_mosorio:latest
+step: 7
+docker_image: test_mosorio:latest
