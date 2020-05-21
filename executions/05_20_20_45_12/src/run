@@ -1,0 +1,25 @@
+#!/bin/bash
+BASEDIR=`dirname $0`
+. $BASEDIR/io.sh 2 2 0 "$@"
+CURDIR=`pwd`
+set -e
+## INPUTS VARIABLES
+test1_txt=${INPUTS1}
+test1=${INPUTS2}
+
+
+## PARAMETERS VARIABLES
+parameter1=${PARAMS1}
+parameter2=${PARAMS2}
+
+
+set -xe
+
+####### WRITE YOUR INVOCATION LINE AFTER THIS COMMENT
+
+
+
+####### WRITE YOUR INVOCATION LINE BEFORE THIS COMMENT
+set -e
+cd $BASEDIR
+. $BASEDIR/output.sh

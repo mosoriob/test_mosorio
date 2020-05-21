@@ -8,4 +8,6 @@ parameters:
     default_value: 1.0
   parameter2:
     default_value: 1.0
-step: 9
+step: 7
+docker:
+  name: 7
