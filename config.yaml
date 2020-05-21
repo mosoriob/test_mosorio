@@ -8,5 +8,7 @@ parameters:
     default_value: 1.0
   parameter2:
     default_value: 1.0
-step: 7
+step: 9
 docker_image: test_mosorio:latest
+github_repo_url: https://github.com/sirspock/test_mosorio.git
+version: 20.5.16
