@@ -10,4 +10,4 @@ parameters:
     default_value: 1.0
 step: 7
 docker:
-  name: 7
+  name: test_mosorio:latest
